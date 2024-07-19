@@ -47,8 +47,19 @@ so I got to play with it myself before I gave it
 to her.
 """
 
-def wordcount(text):
-    pass
+import re
+def wordcount(text: str):
+    text = re.sub(r'[^\w\s]', '', text).lower()
+    words = text.split()
+
+    word_count: dict[str, int] = {}
+    for word in words:
+        if word in word_count:
+            word_count[word] += 1
+        else:
+            word_count[word] = 1
+    
+    return word_count
 
 ```
 
