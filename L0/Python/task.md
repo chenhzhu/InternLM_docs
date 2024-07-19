@@ -67,4 +67,4 @@ def wordcount(text: str):
 
 请使用本地vscode连接远程开发机，将上面你写的wordcount函数在开发机上进行debug，体验debug的全流程，并完成一份debug笔记(需要截图)。
 
-
+![alt text](./images/2_python_debug_comp.png)
