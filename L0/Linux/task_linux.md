@@ -24,6 +24,7 @@
 ## 4. 创建端口映射
 点击SSH加号旁边的齿轮按钮，添加`LocalForward 7860 127.0.0.1:7860`到配置文件中:
 
+
 在开发机上创建`hello_world.py`文件并输入以下内容:
 ```python
 import socket
@@ -64,3 +65,7 @@ demo.launch()
 ```bash
 pip install gradio==4.29.0
 ```
+通过执行`python hellow_world.py`运行:
+
+进入网站:
+
