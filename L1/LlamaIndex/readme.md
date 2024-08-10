@@ -149,7 +149,9 @@ python llamaindex_internlm.py
 结果为：
 ![image](https://github.com/Shengshenlan/tutorial/assets/57640594/ac3f481d-cc5b-44be-b281-2cab7289f027)
 回答的效果并不好，并不是我们想要的xtuner。
-## 4. LlamaIndex RAG
+
+
+### 4. LlamaIndex RAG
 安装 `LlamaIndex` 词嵌入向量依赖
 ```bash
 conda activate llamaindex
