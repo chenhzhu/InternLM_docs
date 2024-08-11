@@ -168,6 +168,7 @@ python run.py configs/eval_tutorial_demo.py --debug
     ...      
 
 
+![评测结果](./images/3_ceval_outcome.png)
 
 
 ## 进阶任务（闯关不要求完成此任务）
